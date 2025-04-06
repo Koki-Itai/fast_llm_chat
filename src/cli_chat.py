@@ -4,7 +4,7 @@ from rich.markdown import Markdown
 from rich.live import Live
 
 client = OpenAI(
-    base_url="http://localhost:8000/v1",
+    base_url="http://127.0.0.1:8000/v1",
     api_key="token-abc123",
 )
 
