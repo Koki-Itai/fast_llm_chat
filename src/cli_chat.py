@@ -2,7 +2,6 @@ from openai import OpenAI
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.live import Live
-import sys
 
 client = OpenAI(
     base_url="http://localhost:8000/v1",
