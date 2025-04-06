@@ -1,0 +1,15 @@
+[project]
+name = "fast_llm_chat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface-hub[cli]>=0.30.1",
+    "nvitop>=1.4.2",
+    "openai>=1.70.0",
+    "rich>=14.0.0",
+    "setuptools>=78.1.0",
+    "transformers>=4.50.3",
+    "vllm>=0.8.2",
+]
